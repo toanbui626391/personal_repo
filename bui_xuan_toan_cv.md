@@ -87,7 +87,10 @@
 - Experience with traditional databases: PostgreSQL, MySQL, SQL Server
 - Experience with columnar/cloud databases: BigQuery, Presto (Trino), Databricks Delta Tables, Snowflake
 - Distributed data processing: Apache Spark, Apache Beam, Apache Flink
-- Data warehouse modeling (multidimensional model)
+- **Data warehouse design** focusing on scalable architectures (Star/Snowflake schema, Medallion architecture)
+- **Data Reliability & Testing**: Implement robust testing frameworks (dbt tests, custom validations) to ensure **data correctness** and **freshness**; apply TDD to data modeling
+- **Observability**: Implement end-to-end monitoring for data platforms, tracking pipeline health, data quality, and lineage; **leverage query tagging** (e.g., Snowflake query tags) to perform granular analysis of query execution time and cost across complex data models
+- **Cost Optimization**: Optimize cloud warehouse spend (Snowflake, BigQuery) through query tuning, resource management, and storage optimization (e.g., achieved 33% cost reduction)
 - Orchestration with Apache Airflow
 - Change Data Capture (CDC) with Debezium, Kafka Connect, Kafka Server
 - Kafka producer/consumer using confluent-kafka Python client
@@ -102,6 +105,14 @@
 **Backend & AI**
 - REST API development with Flask, Django, FastAPI
 - LLM agent development using LangChain, LangGraph, LangServe
+
+**Vibe Coding (AI-Assisted Software Development)**
+- Proficient in AI-assisted development using tools such as Claude Code, GitHub Copilot, and Cursor to accelerate feature delivery without sacrificing quality
+- Apply **Test-Driven Development (TDD)** as the anchor of AI-assisted workflows: write failing tests first, use AI to generate implementation, then refactor — ensuring generated code is always validated against a clear specification
+- Treat AI-generated code with the same rigor as human-written code: review for correctness, security, edge cases, and maintainability before accepting
+- Use AI tools to scaffold boilerplate, suggest refactors, and explore approaches, while retaining full ownership of design decisions and code quality
+- Enforce code quality gates (linting, type checking, test coverage thresholds) in CI/CD pipelines to catch issues in AI-generated code automatically
+- Focus on prompt engineering for code generation: provide context, constraints, and expected behavior to guide AI toward correct and minimal solutions
 
 ---
 

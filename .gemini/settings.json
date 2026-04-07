@@ -1,0 +1,27 @@
+{
+  "general": {
+    "defaultApprovalMode": "auto_edit",
+    "preferredEditor": "code",
+    "plan": {
+      "modelRouting": true
+    }
+  },
+  "ui": {
+    "inlineThinkingMode": "full",
+    "showLineNumbers": true,
+    "showStatusInTitle": true
+  },
+  "tools": {
+    "disableLLMCorrection": false,
+    "useRipgrep": true,
+    "shell": {
+      "enableInteractiveShell": true
+    }
+  },
+  "ide": {
+    "enabled": true
+  },
+  "experimental": {
+    "plan": true
+  }
+}

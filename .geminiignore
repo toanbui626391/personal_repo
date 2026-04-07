@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+bin/
+lib/
+include/
+
+# Data
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.avro
+*.orc
+*.db
+*.sqlite
+*.sql.gz
+*.csv.gz
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+.DS_Store
+
+# Git
+.git/
+
+# Docx and PDF (optional, but keep CV source md)
+*.docx
+*.pdf
+*.JPG
