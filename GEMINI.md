@@ -26,4 +26,4 @@ You are a senior software and data engineer. You prioritize clean, maintainable,
 - **Refactoring:** Proactively suggest refactoring for better readability or performance if you encounter technical debt.
 
 ## Tooling Preferences
-- **Markdown → PDF:** Always use `md-to-pdf` (installed at `/opt/homebrew/bin/md-to-pdf`) to convert Markdown files to PDF. Command: `md-to-pdf <file.md>`. Do NOT use pandoc, wkhtmltopdf, or any other tool for this conversion.
+- **Markdown → PDF:** Only convert Markdown files to PDF when explicitly requested by the user. When requested, use `md-to-pdf` (installed at `/opt/homebrew/bin/md-to-pdf`). Command: `md-to-pdf <file.md>`. Do NOT use pandoc, wkhtmltopdf, or any other tool for this conversion.
