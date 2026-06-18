@@ -1,3 +1,11 @@
+---
+launch_options:
+  headless: true
+  args:
+    - "--no-sandbox"
+    - "--disable-setuid-sandbox"
+    - "--disable-dev-shm-usage"
+---
 # Resume
 
 <h2>Bui Xuan Toan</h2>
@@ -87,7 +95,7 @@
 - Experience with traditional databases: PostgreSQL, MySQL, SQL Server
 - Experience with columnar/cloud databases: BigQuery, Presto (Trino), Databricks Delta Tables, Snowflake
 - Distributed data processing: Apache Spark, Apache Beam, Apache Flink
-- **Data warehouse design** focusing on scalable architectures (Star/Snowflake schema, Medallion architecture)
+- **Data warehouse design** focusing on scalable architectures (Star/Kimball schema design, Medallion architecture)
 - **Data Reliability & Testing**: Implement robust testing frameworks (dbt tests, custom validations) to ensure **data correctness** and **freshness**; apply TDD to data modeling
 - **Observability**: Implement end-to-end monitoring for data platforms, tracking pipeline health, data quality, and lineage; **leverage query tagging** (e.g., Snowflake query tags) to perform granular analysis of query execution time and cost across complex data models
 - **Cost Optimization**: Optimize cloud warehouse spend (Snowflake, BigQuery) through query tuning, resource management, and storage optimization (e.g., achieved 33% cost reduction)
