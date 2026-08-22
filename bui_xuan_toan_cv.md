@@ -18,7 +18,7 @@ launch_options:
     <td style="vertical-align:middle; padding-left:24px;">
       <ul>
         <li><strong>Date of Birth:</strong> September 21st, 1991</li>
-        <li><strong>Address:</strong> 21 Nguyen Thi Dinh, Thu Duc City, HCM City, Vietnam</li>
+        <li><strong>Address:</strong> 223 Trinh Dinh Trong Street, Tan Phu Ward, Ho Chi Minh City</li>
         <li><strong>Phone:</strong> 0379805184</li>
         <li><strong>Email:</strong> toanbui1991@gmail.com</li>
         <li><strong>GitHub:</strong> <a href="https://github.com/toanbui626391">github.com/toanbui626391</a> | <a href="https://github.com/toanbui1991">github.com/toanbui1991</a></li>
